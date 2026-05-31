@@ -1,3 +1,23 @@
 :root {
-    
+    /* BACKGROUND */
+    --background-color-one: #FFFFFF;
+    --background-color-two: #F5F5F5;
+    --background-color-three: #000000;
+    /* BOTÕES */
+    --button-color-one: #8F0101;
+    --button-color-two: #B81515;
+    /* TEXTOS */
+    --text-color-one: #222222;
+    --text-color-two: #FFFFFF;
+    /* FONTES */
+    --font: 'Montserrat', sans-serif;
+}
+
+/* CONFIGURAÇÃO PADRAO */
+body {
+    background-color: var(--background-color-one);
+    color: var(--text-color-one);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 2em;
 }
