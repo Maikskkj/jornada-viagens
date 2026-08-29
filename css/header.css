@@ -45,3 +45,28 @@ input[type="checkbox"]:checked ~ nav {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
+@media screen and (min-width: 768px) {
+  .menu__hamburguer {
+    margin-top: 0;
+    width: 467px;
+  }
+}
+.menu__hamburguer label {
+  display: none;
+}
+
+.menu__hamburguer nav {
+  display: block;
+}
+
+.lista__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+
+  .lista__links li {
+    margin: 0;
+  }
+}
