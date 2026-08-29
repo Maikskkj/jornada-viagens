@@ -9,29 +9,34 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Jornada Viagens</title>
   </head>
   <body>
     <header>
-      <a href="index.html" title="Voltar para página inicial"
+      <a class="logo" href="index.html" title="Voltar para página inicial"
         ><img
           src="./img/bussula-jornada-branco.png"
           alt="Bussula Logo Jornada Viagens Preta"
       /></a>
-      <img src="./img/menu.png" alt="menu" />
-      <nav>
-        <ul>
-          <li><a href="blog.html" title="Acessar Blog">Blog</a></li>
-          <li>
-            <a href="pacotes-de-viagem.html" title="Acessar Pacotes de Viagnes"
-              >Pacotes de viagem</a
-            >
-          </li>
-          <li><a href="contato.html" title="Acessar Contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="menu__hamburguer">
+        <label for="menu"><img src="./img/menu.png" alt="menu" /></label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul>
+            <li><a href="blog.html" title="Acessar Blog">Blog</a></li>
+            <li>
+              <a
+                href="pacotes-de-viagem.html"
+                title="Acessar Pacotes de Viagnes"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li><a href="contato.html" title="Acessar Contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
