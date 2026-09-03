@@ -21,3 +21,23 @@ body {
   font-weight: 400;
   font-size: 1.5rem;
 }
+
+.section__title h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section__title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-color-two);
+  border: none;
+  margin: 16px auto 32px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section__title h2 {
+    font-size: 32px;
+  }
+}
