@@ -1,0 +1,26 @@
+.category__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.category__card {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-color-two);
+  border-radius: 8px;
+}
+
+.category__card section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 0;
+}
+
+.category__card section h3 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
