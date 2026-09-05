@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 42pxgo 0;
+  padding: 42px 0;
 }
 
 .category__card section h3 {
